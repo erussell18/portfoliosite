@@ -37,6 +37,11 @@ header nav ul li{
     font-weight: bold;
 }
 
+header nav ul li a:hover{
+    color:white;
+    background-color: teal;
+}
+
 header nav ul li a{
     text-decoration: none;
     color:teal;
@@ -236,6 +241,62 @@ body{
     margin-top:50%;
 }
 
+#BlogPost article{
+    width:80%;
+    text-align: center;
+    margin:auto;
+}
+
+#BlogPost article h1{
+    font-size: 40px;
+}
+
+#BlogPost article h3{
+    font-size: 30px;
+}
+
+#BlogPost article p{
+    line-height: 200%;
+}
+
+#Portfolio #Projects h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+#Portfolio #Projects a{
+    text-decoration: none;
+    color:black;
+    font-size: 30px;
+}
+
+#Portfolio #Projects a:hover{
+    color:white;
+    background-color: teal;
+}
+
+#About #AboutPage h1{
+    font-size: 40px;
+}
+
+#About #AboutPage p{
+    line-height: 200%;
+    font-size: 25px;
+    width: 80%;
+    margin: auto;
+}
+
+#Contact #ContactPage h1{
+    font-size:40px;
+}
+
+#Contact #ContactPage h3{
+    font-size: 30px;
+}
+
+#Contact #ContactPage p{
+    font-size: 25px;
+}
 @media only screen and (max-width:425px) {
 
     body{

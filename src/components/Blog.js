@@ -28,7 +28,7 @@ function Blog() {
                     </article>
 
                     <article id="Article2">
-                        <Link to="/">
+                        <Link to="/SurveyFormPost">
                         <img src={SurveyPic} alt="Touching Phone" height="100"></img>
                         <p id="Author">Eddie Russell</p>
                         <p id="SummaryTitle">Making A Survey Form</p>
@@ -41,7 +41,7 @@ function Blog() {
                     </article>
 
                     <article id="Article3">
-                        <Link to="/">
+                        <Link to="/FirstReactProjectPost">
                         <img src={ReactLogo} alt="React Logo" height="100"></img>
                         <p id="Author">Eddie Russell</p>
                         <p id="SummaryTitle">First React Project</p>
