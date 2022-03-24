@@ -301,6 +301,13 @@ body{
 
     body{
         width:auto;
+        overflow-x: auto;
+    }
+
+    #Footer{
+        text-align:center;
+        float:none;
+        width:auto;
     }
 
     .scrollbar-hidden::-webkit-scrollbar{
@@ -341,6 +348,7 @@ body{
         margin-top:0%;
         margin-right:8%;
         width:50%;
+        margin-bottom:15%;
     }
     
     header nav ul li{
@@ -404,13 +412,243 @@ body{
         line-height: 1.5;
     }
 
-    #Posts{
-        display:none;
+    #Posts h4{
+        margin-left:20%;
+    }
+
+    #HomeFooter {
+        margin-left:19%;
+    }
+
+    #Posts #PostSummary{
+        margin-left:18%;
+    }
+
+    #Posts #PostSummary img{
+        display: none;
     }
 
     
 }
 
+@media only screen and (max-width:320px) {
+
+    header nav{
+        margin-left:-40px;
+    }
+
+    #Welcome{
+        margin-left:-5%;
+    }
+
+    #Posts #PostSummary{
+        margin-left:20%;
+    }
+
+    #Posts h4{
+        margin-left:22%;
+    }
+
+    #HomeFooter{
+        margin-left: 20%;
+    }
+
+    #About #AboutPage p{
+        font-size:20px;
+    }
+    
+}
+
+@media only screen and (max-width:375px) {
+
+    header nav{
+        margin-left:-5%;
+    }
+
+    #Welcome{
+        margin-left:-5%;
+    }
+
+    #Posts #PostSummary{
+        margin-left:20%;
+    }
+
+    #Posts h4{
+        margin-left:22%;
+    }
+
+    #HomeFooter{
+        margin-left: 20%;
+    }
+
+    #About #AboutPage p{
+        font-size:20px;
+    }
+    
+}
+
+@media only screen and (max-width:1024px) {
+
+    body{
+        width:auto;
+        overflow-x: hidden;
+    }
+
+    header nav{
+        margin-top:-6%;
+        margin-right:11%;
+    }
+
+    #Posts #PostSummary{
+        color:red;
+        width:85%;
+    }
+    
+}
+
+@media only screen and (min-width:2560px) {
+
+    body{
+        width:auto;
+        overflow-x: hidden;
+        font-size:38px;
+        
+    }
+
+    header{
+        font-size: 35px;
+    }
+
+    header nav{
+        margin-top:-6%;
+        margin-right:11%;
+    }
+
+    #Welcome h1{
+        font-size: 71px;
+    }
+
+    #Posts #PostSummary #Article1 #SummaryTitle{
+        font-size: 40px;
+    }
+
+    #Posts #PostSummary #Article2 #SummaryTitle{
+        font-size: 40px;
+    }
+
+    #Posts #PostSummary #Article3 #SummaryTitle{
+        font-size: 40px;
+    }
+
+    #BlogPost article h1{
+        font-size: 60px;
+    }
+    
+    #BlogPost article h3{
+        font-size: 50px;
+    }
+
+    #Portfolio #Projects h1{
+        font-size: 60px;
+    }
+    
+    #Portfolio #Projects a{
+        
+        font-size: 50px;
+    }
+
+    #About #AboutPage h1{
+        font-size: 60px;
+    }
+    
+    #About #AboutPage p{
+        line-height: 200%;
+        font-size: 45px;
+        width: 80%;
+        margin: auto;
+    }
+
+    
+    #Contact #ContactPage h1{
+        font-size:60px;
+    }
+
+    #Contact #ContactPage h3{
+        font-size: 50px;
+    }
+
+    #Contact #ContactPage p{
+        font-size: 45px;
+    }
+
+
+    
+
+    #Posts #PostSummary{
+        color:red;
+        width:85%;
+    }
+    
+}
+
+@media only screen and (max-width:768px) {
+
+    body{
+        width:auto;
+        overflow: auto;
+    }
+
+    header nav{
+        text-align: center;
+        float: none;
+        margin-top:5%;
+    }
+
+    header h1{
+        text-align: center;
+    }
+
+    #Posts{
+        margin-left: -5em;
+    }
+
+    #Posts #PostSummary{
+        width:85%;
+    }
+
+    #Posts #PostSummary #Article1 img{
+        float:none;
+        width:39em;
+    }
+
+    #Posts #PostSummary #Article2 img{
+        float:none;
+        width:39em;
+    }
+
+    #Posts #PostSummary #Article3 img{
+        float:none;
+        width:39em;
+    }
+
+    #Welcome img{
+        display: none;
+    }
+
+    #Welcome{
+        text-align: center;
+        margin-top:-10%;
+        margin-bottom:-20%;
+    }
+
+    #Welcome h4{
+        width:50%;
+        text-align: center;
+    }
+
+    
+    
+}
 
 
 

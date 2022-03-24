@@ -74,7 +74,7 @@ function Home(){
 
                 </article>
 
-                <article id="Footer">
+                <article id="HomeFooter">
                     <Footer />
                 </article>
             </section>
